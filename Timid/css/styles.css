@@ -1,0 +1,245 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+  background-color: #03093D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #FFF;
+}
+
+.navbar .brand-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Estilos da seção principal */
+#hero-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #4F3466;
+  color: #FFF;
+}
+
+.hero-title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #89CFF0;
+  color: #FFF;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Estilos da seção de recursos */
+#recursos-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #EDEDED;
+  color: #03093D;
+}
+
+.section-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.recursos-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.recurso-item {
+  max-width: 300px;
+  margin: 0 10px 30px;
+}
+
+.recurso-title {
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recurso-description {
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos da seção de comentários */
+#comentarios-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #B0B0B0;
+  color: #FFF;
+}
+
+.comentarios-slider {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.comentario-item {
+  max-width: 300px;
+  margin: 0 10px 30px;
+}
+
+.comentario-text {
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.comentario-author {
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Estilos da seção de benefícios */
+#beneficios-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #FFF;
+  color: #03093D;
+}
+
+.beneficios-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.beneficio-item {
+  max-width: 300px;
+  margin: 0 10px 30px;
+}
+
+.beneficio-title {
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.beneficio-description {
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #03093D;
+  color: #FFF;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer-contact {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-social-icons a {
+  margin: 0 10px;
+}
+
+/* Outros estilos */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-social-icons img {
+  width: 24px;
+  height: 24px;
+}
